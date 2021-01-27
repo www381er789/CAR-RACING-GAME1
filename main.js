@@ -80,3 +80,13 @@ function my_keydown(e) {
         console.log("key d");
     }
 }
+
+if (car1_x > 700) {
+    console.log("Car1 Won");
+    document.getElementById("game_status").innerHTML = "Car 1 Won!!"
+}
+
+if (car2_x > 700) {
+    console.log("Car2 Won");
+    document.getElementById("game_status").innerHTML = "Car 2 Won!!"
+}
